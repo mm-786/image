@@ -68,7 +68,7 @@
       img.onload = function () {
         console.log(this.width + "x" + this.height);
       };
-      img.src ="/assets/bg.jpg";
+      img.src ="../../assets/bg.jpg";
       this.url = img.src;
       this.height = img.height-2 + "px";
       this.width = img.width-2 + "px";
