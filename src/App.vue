@@ -68,8 +68,7 @@
       img.onload = function () {
         console.log(this.width + "x" + this.height);
       };
-      img.src =
-        "https://images.fineartamerica.com/images-medium-large/crying-black-rose-danuta-bennett.jpg";
+      img.src ="/assets/bg.jpg";
       this.url = img.src;
       this.height = img.height-2 + "px";
       this.width = img.width-2 + "px";
