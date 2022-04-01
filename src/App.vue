@@ -1,7 +1,7 @@
 <template>
   <div id="app">
-    <div id="printMe">
-    <div :style="{
+    <div >
+    <div id="printMe" :style="{
         backgroundImage: 'url(' + url + ')',
         height: height,
         width: width,
